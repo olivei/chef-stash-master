@@ -1,5 +1,7 @@
 source "https://supermarket.getchef.com"
 cookbook 'mysql'
+cookbook 'ark'
+
 group :integration do
   cookbook 'java'
 #  cookbook 'minitest-handler'
