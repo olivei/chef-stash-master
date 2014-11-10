@@ -1,6 +1,6 @@
 source "https://supermarket.getchef.com"
 cookbook 'mysql'
-cookbook 'ark'
+cookbook 'ark', '~> 0.9.0'
 
 group :integration do
   cookbook 'java'
