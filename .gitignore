@@ -1,36 +1,38 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+# Berkshelf
+Berksfile.lock
+/cookbooks
 
-# Folder config file
-Desktop.ini
+# Bundler
+.bundle
+bin/
+Gemfile.lock
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# Chef
+metadata.json
+tmp/
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# Editors
+*~
+*#
+.#*
+\#*#
+.*.sw[a-z]
+*.sublime-project
+*.sublime-workspace
+*.un~
 
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
+# OS files
 .DS_Store
-.AppleDouble
-.LSOverride
 
-# Icon must ends with two \r.
-Icon
+# rbenv
+.ruby-version
 
-# Thumbnails
-._*
+# Test Kitchen
+.kitchen/
+.kitchen.local.yml
 
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
+# Vagrant
+.vagrant
+
+# vagrant-cache
+.cache
