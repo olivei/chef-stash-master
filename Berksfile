@@ -1,7 +1,7 @@
 source "https://supermarket.getchef.com"
 cookbook 'mysql'
 cookbook 'ark', '~> 0.9.0'
-cookbook 'cron'
+cookbook 'cron', '~> 1.6.1'
 
 group :integration do
   cookbook 'java'
